@@ -72,7 +72,7 @@ const [tasks, setTasks] = useState<string[]>([]);
         ))}
       </div>
       <div className="mt-4 flex " >
-        <form class="grid gap-4 mb-6 md:grid-cols-2" onSubmit={handleAddTask}>
+        <form className="grid gap-4 mb-6 md:grid-cols-2" onSubmit={handleAddTask}>
           <input
           type="text"
           className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 
